@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2CA0DF;
+    padding: 20px;
+    color: black; 
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+form {
+    margin-right: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1875FF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.selected {
+    background-color: #ffc107;
+}
+
+button {
+    background-color: #1875FF;
+    color: black; 
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #135daa;
+}
+
+#paramID {
+    width: 100px;
+}
+
+#paramNombre {
+    width: 200px;
+}
+
+#paramDuracion {
+    width: 100px;
+}
+
+#paramDescripcion {
+    width: 300px;
+}
+
+#botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#total {
+    font-size: 18px;
+    margin-top: 20px;
+}

@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 20em;
+    padding: 2em;
+    border-radius: 1em;      
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+}
+
+input[type="submit"] {
+background-color: #00BFA6;
+padding: 14px 40px;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 2px;
+cursor: pointer;
+border-radius: 10px;
+border: 2px dashed #00BFA6;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+transition: .4s;
+
+margin-top: 1.5em;
+width: 100%; /* Ancho del botón al 100% del contenedor */
+padding: 0.8em; /* Espacio interno del botón */
+font-size: 1.2em; /* Tamaño de fuente del botón */
+text-align: center;
+}
+
+input span:last-child [type="submit"] {
+ display: none;
+ }
+
+input:hover[type="submit"] {
+transition: .4s;
+border: 2px dashed #00BFA6;
+background-color: #fff;
+color: #00BFA6;
+}
+
+input:active[type="submit"]{
+background-color: #87dbd0;
+}
+
+p.error-message {
+    margin-top: 2em;
+    color: black;
+    text-align: center;
+}
+
+body {
+background-image: url("https://th.bing.com/th/id/R.e5823c27686a545ffb52b15571128064?rik=BHWl8k2uBK7K2A&pid=ImgRaw&r=0"); /* Cambia "ruta_de_la_imagen.jpg" con la ruta de tu imagen */
+background-repeat: no-repeat;
+background-size: cover;
+}

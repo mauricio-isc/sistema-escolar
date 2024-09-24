@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+th {
+    background-color: #f9f9f9;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+.edit-button,
+.delete-button {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-container input[type=text],
+.search-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#btnImprimir {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+#btnExportar {
+    background-color: #2196F3;
+}
+
+#btnRegresar {
+    background-color: #FF9800;
+}
+
+#btnExportar,
+#btnRegresar,
+#btnEstado {
+    margin-left: 5px;
+}
+
+#btnExportar:hover,
+#btnRegresar:hover,
+#btnEstado:hover {
+    background-color: #0b7dda;
+}

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 100%;
+    height: 50px; /* Aumentamos la altura para hacer los cuadros de texto más grandes */
+    padding: 10px; /* Ajustamos el padding para mantener el texto centrado */
+    font-size: 18px; /* Aumentamos el tamaño de fuente */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Un poco más de espacio entre los cuadros de texto */
+    text-align: center; /* Centramos el texto horizontalmente */
+}
+
+/* Estilos para las etiquetas (labels) */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center; /* Centramos el texto horizontalmente */
+}
+.total-container {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.total-label {
+    font-weight: bold;
+}
+
+.total-value {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #4CAF50;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
